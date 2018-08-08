@@ -4,15 +4,17 @@ __/data__
 
 Final transformed data is preserved here which can be consumed by different applications.
 
-__/ecom__
+>__/ecom__
 
-_/ajio_
+>>_/ajio_
 
-__/raw__
+>>>__/raw__
  
-->Raw data ingested from different sources.<-
+>>>Raw data ingested from different sources.<-
 
-```scala
+>>><div>
+ 
+ ```scala
 /stream
   /android
     /event
@@ -29,15 +31,13 @@ __/raw__
   /searchquerylogs
 /sizefitdata
 ```
+</div>
     
-->__/processed__<-
+>>>__/processed__
 
-<div class="text-color">
-__/etl__
-</div>
+>>>__/etl__
 
-<div class="text-color">Data generated during transformations will be persisted here. It will be periodically cleaned by garbage collector.
-</div>
+Data generated during transformations will be persisted here. It will be periodically cleaned by garbage collector.
 
 ~~__/etld__~~
 
@@ -51,7 +51,7 @@ __/users__
 
 A scratch pad for users to develop and test. This is only part of dev environment.
 
-```scala
+```
 /{user-id}
 ```
 __/metadata__
