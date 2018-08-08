@@ -6,7 +6,7 @@ Final transformed data is preserved here which can be consumed by different appl
 
 >__/ecom__
 
->>_/ajio_
+>>__/ajio__
 
 >>>__/raw__
  
@@ -15,21 +15,21 @@ Final transformed data is preserved here which can be consumed by different appl
 >>><div>
  
  ```scala
-/stream
-  /android
-    /event
-    /session
-    /user
-  /ios
-    /event
-    /session
-    /user
-  /web
-    /event
-    /session
-    /user
-  /searchquerylogs
-/sizefitdata
+          /stream
+            /android
+              /event
+              /session
+              /user
+            /ios
+              /event
+              /session
+              /user
+            /web
+              /event
+              /session
+              /user
+            /searchquerylogs
+          /sizefitdata
 ```
 </div>
     
@@ -45,7 +45,7 @@ Data generated during transformations will be persisted here. It will be periodi
 
 ~~__/ecom__~~
 
-~~/ajio~~
+>~~/ajio~~
 
 __/users__
 
@@ -58,9 +58,9 @@ __/metadata__
 
 All schema definitions and global constants will be stored here.
 
-__/ecom__
+>__/ecom__
 
-__/ajio__
+>>__/ajio__
 
  <br>
  <br>
@@ -69,9 +69,9 @@ __/app__
 
 Jar files and other artifacts etc.
 
-__/ecom__
+>__/ecom__
 
-__/ajio__
+>>__/ajio__
 
 <br>
  
